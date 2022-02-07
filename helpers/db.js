@@ -3,9 +3,9 @@ const mysql = require('mysql2/promise');
 const createConnection = async () => {
 	return await mysql.createConnection({
 		host: 'br592.hostgator.com.br',
-		user: 'ceuazu83_wa_api',
+		user: 'ceuazu83_superch',
 		password: '31051994',
-		database: 'ceuazu83_wa_api'
+		database: 'ceuazu83_superch'
 	});
 
 }
